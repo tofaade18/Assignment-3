@@ -261,7 +261,7 @@ function sumarr(arr, int) {
     console.log(collarr);
 }
 
-sumarr([3,7,1,9,4,5], 13)
+sumarr([3,10,1,9,4,5], 13)
 
 // 4
 let maxx = Number.NEGATIVE_INFINITY
@@ -281,7 +281,7 @@ function arrSum(arr) {
             diff++
         }
     }
-    console.log(res, maxx)
+    console.log([res, maxx])
 }
 arrSum([5,0,10,-4,-5,9,-3,2])
 
